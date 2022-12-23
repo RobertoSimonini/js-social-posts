@@ -51,6 +51,16 @@ const posts = [
         image: 'https://unsplash.it/600/300?image=688',
         likes: 41
     },
+    {
+        idNumber: 4,
+        name: 'Paolo Guida',
+        authorPicture: 'https://unsplash.it/300/300?image=57',
+        date: '02-15-2021',
+        text: `There are different types of secrets. She had held onto plenty of them during her life, but this one was different. She found herself holding onto the worst type. It was the type of secret that could gnaw away at your insides if you didn't tell someone about it, but it could end up getting you killed if you did.
+        `,
+        image: 'https://unsplash.it/600/300?image=700',
+        likes: 258
+    },
 ]
 
 // Creo il ciclo per generare i post tramite l'array 
