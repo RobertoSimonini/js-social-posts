@@ -18,3 +18,26 @@ Prendendo come riferimento il layout di esempio presente nell'html, stampiamo i 
 #Milestone 3
 Se clicchiamo sul tasto "Mi Piace" cambiamo il colore al testo del bottone e incrementiamo il counter dei likes relativo.
 */
+
+const posts = [
+    {
+        idNumber: 1,
+        name: 'Phil Mangione',
+        authorPicture: 'https://unsplash.it/300/300?image=15',
+        date: '08-23-2022',
+        text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+        image: 'https://unsplash.it/600/300?image=171'
+    },
+    {
+        idNumber: 2,
+        name: 'Sofia Perlari',
+        authorPicture: 'https://unsplash.it/300/300?image=15',
+        date: '08-23-2022',
+        text: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
+        image: 'https://unsplash.it/600/300?image=171'
+    },
+
+
+]
+
+console.log(posts);
