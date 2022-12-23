@@ -121,7 +121,7 @@
     font-weight: bold;
   }
   
-  .like-button--liked {
+  button.liked {
     color: #0cd977;
     cursor: default;
   }

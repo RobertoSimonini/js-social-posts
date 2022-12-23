@@ -103,3 +103,17 @@ for (let i = 0; i < posts.length; i++){
     container.innerHTML += card;
 
 }
+
+// Prendo tutti i bottni 
+const likeButtons = document.querySelectorAll('.like-button');
+const likeCounter = document.querySelectorAll('.js-likes-counter');
+
+likeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      button.classList.toggle('liked');
+
+      
+
+    });
+  });
+  
