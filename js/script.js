@@ -36,11 +36,20 @@ const posts = [
     {
         idNumber: 2,
         name: 'Sofia Perlari',
-        authorPicture: 'https://unsplash.it/300/300?image=15',
-        date: '08-23-2022',
-        text: 'lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum.',
-        image: 'https://unsplash.it/600/300?image=171',
+        authorPicture: 'https://unsplash.it/300/300?image=13',
+        date: '08-11-2022',
+        text: `It was going to rain. The weather forecast didn't say that, but the steel plate in his hip did. He had learned over the years to trust his hip over the weatherman. It was going to rain, so he better get outside and prepare.`,
+        image: 'https://unsplash.it/600/300?image=173',
         likes: 75
+    },
+    {
+        idNumber: 3,
+        name: 'Giancarlo Rossi',
+        authorPicture: 'https://unsplash.it/300/300?image=10',
+        date: '02-11-2021',
+        text: `The coin hovered in the air, spinning over and over again. It reached its peak and began to descend. Both boys were pleading with it to land a certain way but the coin had already made up its mind on what it was going to do.`,
+        image: 'https://unsplash.it/600/300?image=688',
+        likes: 41
     },
 ]
 
