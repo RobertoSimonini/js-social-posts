@@ -95,7 +95,7 @@ for (let i = 0; i < posts.length; i++){
             <span class="like-button__label">Mi Piace</span>
           </button>
         </div>
-        <div class="likes__counter">Piace a <b id="like-counter-1" class="js-likes-counter">${currentPost.likes}</b> persone</div>
+        <div class="likes__counter">Piace a <b id="like-counter-${currentPost.idNumber}" class="js-likes-counter">${currentPost.likes}</b> persone</div>
       </div>
     </div>
     `
@@ -106,13 +106,19 @@ for (let i = 0; i < posts.length; i++){
 
 // Prendo tutti i bottni 
 const likeButtons = document.querySelectorAll('.like-button');
-const likeCounter = document.querySelectorAll('.js-likes-counter');
 
-likeButtons.forEach(button => {
+likeButtons.forEach((button, i) => {
     button.addEventListener('click', () => {
       button.classList.toggle('liked');
 
-      
+      const likeCounter = document.getElementById(`like-counter-${i+1}`);
+
+      if (button.classList.contains('liked')) {
+        likeCounter.innerText = ++posts[i].likes;
+      } else {
+        likeCounter.innerText = --posts[i].likes;
+      }    
+    
 
     });
   });
